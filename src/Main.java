@@ -2,8 +2,11 @@ public class Main {
 
         public static void main(String[] args) {
 
-            for (int i = 1; i <= 512; i *=2) {
-                System.out.print(i + " ");
+            int salary = 29_000;
+            int total = 0;
+            for (int i = 1; i < 13; i++) {
+                total += salary;
+                System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
 
         }
 
